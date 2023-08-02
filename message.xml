@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-queue-messages xmlns="http://xmlns.oracle.com/weblogic/weblogic-queue-messages"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-queue-messages http://xmlns.oracle.com/weblogic/weblogic-queue-messages/1.0/weblogic-queue-messages.xsd">
+    <messages>
+        <!-- Premier message -->
+        <message>
+            <payload>Your message content here for message 1</payload>
+        </message>
+
+        <!-- Deuxième message -->
+        <message>
+            <payload>Your message content here for message 2</payload>
+        </message>
+
+        <!-- Troisième message -->
+        <message>
+            <payload>Your message content here for message 3</payload>
+        </message>
+        <!-- Vous pouvez ajouter autant de messages que nécessaire -->
+    </messages>
+</weblogic-queue-messages>
